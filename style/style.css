@@ -1,1 +1,140 @@
 /* style page */
+
+/*
+ADMIN
+*/
+
+html, body, #root {
+  height: 100%;
+  overflow: auto;
+}
+
+.display-flex {
+  display: flex;
+} 
+
+/*
+APP
+*/
+
+.app-wrapper {
+  display: flex;
+  min-height: 100%;
+}
+
+/*
+NAVIGATION
+*/
+
+.navigation-wrapper {
+  background: #E8E8E8;
+  padding: 70px 20px 0px 20px;
+  width: 350px;
+}
+
+.navigation-segment {
+  padding: 0 !important;
+}
+
+.navigation-header {
+  background: #6B909A;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+.navigation-title-wrapper {
+  background: #FCFCFC !important;
+  padding: 5px 0px 5px 10px
+}
+
+.navigation-title-wrapper.active {
+  background: #FFFFFF !important;
+}
+
+.navigation-title-wrapper:not(:last-child) {
+  border-bottom: 2px solid #EEEFF0;
+}
+
+.ui.accordion > div > .title {
+  color: #67ADC2 !important;
+  font-size: 16px !important;
+}
+
+.ui.accordion > div > .title.active {
+  background: #FFFFFF !important;
+  border-bottom: none !important;
+  color: #000000 !important;
+  font-weight: 600;
+}
+
+.navigation-content-wrapper {
+  border-left: 3px solid #98AAA6;
+  min-height: 25px;
+}
+
+.navigation-content-wrapper:not(:last-child) {
+  margin-bottom: 3px;
+}
+
+.navigation-content-wrapper:hover {
+  border-left: 3px solid #8B3669;
+  cursor: pointer;
+}
+
+/*.navigation-content-wrapper.active {
+  border-left: 3px solid #9B3D75;
+}*/
+
+.navigation-content {
+  color: #98AAA6;
+  font-size: 14px;
+  margin-left: 10px;
+  position: relative;
+  top: 2px;
+}
+
+.navigation-content:hover {
+  color: #8B3669;
+}
+
+/*.navigation-content.active {
+  color: #9B3D75;
+  font-weight: 600;
+}*/
+
+/*
+DISPLAY
+*/
+
+
+.display-wrapper {
+  background: #F5F5F5;
+  padding: 30px 10px 0px 40px !important;
+  width: 100%;
+}
+
+.display-header {
+  color: #6B909A;
+  font-size: 18px;
+  margin-bottom: 22px;
+}
+
+.display-segment {
+  padding: 30px !important;
+  margin-bottom: 20px !important;
+}
+
+.display-segment-header {
+  color: #6B909A !important;
+  font-size: 16px;
+}
+
+.display-segment-table-header {
+  background: #F2F6F7 !important;
+  color: #6B909A !important;
+  width: 300px;
+}
+
+.display-segment-usage:not(:last-child) {
+  margin-right: 10px;
+}
